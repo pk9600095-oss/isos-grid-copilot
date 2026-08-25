@@ -14,10 +14,6 @@ import {
   Send
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-
-type DecisionAction = 'STORE' | 'DRAW' | 'SELL';
-type Currency = 'INR' | 'USD';
-
 interface NodeData {
   id: string;
   name: string;
