@@ -4,15 +4,13 @@ import {
   BarChart3,
   Info,
   Check,
-  ChevronRight,
   X,
   Shield,
   Zap,
   Database,
-  Activity,
+  Activity
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-
 export default function App() {
   const [currency, setCurrency] = useState<'INR' | 'USD'>('INR');
   const [mode, setMode] = useState<'DRAW' | 'STORE' | 'SELL'>('STORE');
