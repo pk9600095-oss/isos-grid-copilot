@@ -6,12 +6,10 @@ import {
   Layers,
   CheckCircle2,
   Play,
-  ChevronRight,
   Clock,
   Check,
   X,
   Network,
-  AlertTriangle,
   Shield,
   Send
 } from 'lucide-react';
